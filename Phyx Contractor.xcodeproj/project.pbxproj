@@ -78,8 +78,6 @@
 		0033CD3E225C356300BED055 /* REQWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCA1225C356100BED055 /* REQWrapper.swift */; };
 		0033CD3F225C356300BED055 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCA2225C356100BED055 /* LocationManager.swift */; };
 		0033CD40225C356300BED055 /* FSWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCA3225C356100BED055 /* FSWrapper.swift */; };
-		0033CD41225C356300BED055 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCA7225C356200BED055 /* StatisticsViewController.swift */; };
-		0033CD42225C356300BED055 /* StatisticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCA8225C356200BED055 /* StatisticsViewController.xib */; };
 		0033CD45225C356300BED055 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCAD225C356200BED055 /* SettingCell.xib */; };
 		0033CD46225C356300BED055 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCAE225C356200BED055 /* SettingViewController.swift */; };
 		0033CD47225C356300BED055 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCAF225C356200BED055 /* SettingViewController.xib */; };
@@ -101,45 +99,21 @@
 		0033CD5B225C356300BED055 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCCB225C356200BED055 /* OrderViewController.swift */; };
 		0033CD5C225C356300BED055 /* OrderNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCCC225C356200BED055 /* OrderNavigationController.swift */; };
 		0033CD5D225C356300BED055 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCCE225C356200BED055 /* ContactViewController.xib */; };
-		0033CD5E225C356300BED055 /* NewConversationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCD0225C356200BED055 /* NewConversationCell.xib */; };
-		0033CD5F225C356300BED055 /* NewConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCD1225C356200BED055 /* NewConversationCell.swift */; };
 		0033CD60225C356300BED055 /* JobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCD2225C356200BED055 /* JobCell.swift */; };
 		0033CD61225C356300BED055 /* JobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCD3225C356200BED055 /* JobCell.xib */; };
 		0033CD62225C356300BED055 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCD4225C356200BED055 /* ContactViewController.swift */; };
-		0033CD63225C356300BED055 /* MerchandizeItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCD6225C356200BED055 /* MerchandizeItemCell.xib */; };
-		0033CD64225C356300BED055 /* MarketPlaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCD7225C356200BED055 /* MarketPlaceViewController.xib */; };
-		0033CD65225C356300BED055 /* ChatCommandCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCD8225C356200BED055 /* ChatCommandCell.xib */; };
-		0033CD66225C356300BED055 /* MerchandizeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCD9225C356200BED055 /* MerchandizeItemCell.swift */; };
-		0033CD67225C356300BED055 /* MerchandizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCDA225C356200BED055 /* MerchandizeCell.swift */; };
-		0033CD68225C356300BED055 /* ChatCommandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCDB225C356200BED055 /* ChatCommandCell.swift */; };
-		0033CD69225C356300BED055 /* ChatCommandItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCDC225C356200BED055 /* ChatCommandItemCell.swift */; };
-		0033CD6A225C356300BED055 /* MarketPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCDD225C356200BED055 /* MarketPlaceViewController.swift */; };
-		0033CD6B225C356300BED055 /* MerchandizeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCDE225C356200BED055 /* MerchandizeCell.xib */; };
-		0033CD6C225C356300BED055 /* ChatCommandItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCDF225C356200BED055 /* ChatCommandItemCell.xib */; };
 		0033CD6D225C356300BED055 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCE1225C356200BED055 /* TermsViewController.swift */; };
 		0033CD6E225C356300BED055 /* TermsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCE2225C356200BED055 /* TermsViewController.xib */; };
-		0033CD6F225C356300BED055 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCE4225C356200BED055 /* Slide.swift */; };
-		0033CD70225C356300BED055 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCE5225C356200BED055 /* Slide.xib */; };
-		0033CD71225C356300BED055 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCE6225C356200BED055 /* OnboardViewController.swift */; };
-		0033CD72225C356300BED055 /* OnboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCE7225C356200BED055 /* OnboardViewController.xib */; };
 		0033CD73225C356300BED055 /* ContractorSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCE9225C356200BED055 /* ContractorSelectionViewController.swift */; };
 		0033CD74225C356300BED055 /* ContractorSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCEA225C356200BED055 /* ContractorSelectionViewController.xib */; };
 		0033CD75225C356300BED055 /* VerificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCEC225C356200BED055 /* VerificationViewController.xib */; };
 		0033CD76225C356300BED055 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCED225C356200BED055 /* VerificationViewController.swift */; };
-		0033CD77225C356300BED055 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCEF225C356200BED055 /* ProfileViewController.xib */; };
-		0033CD78225C356300BED055 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCF0225C356200BED055 /* ProfileViewController.swift */; };
 		0033CD79225C356300BED055 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCF2225C356200BED055 /* ChangePasswordViewController.swift */; };
 		0033CD7A225C356300BED055 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCF3225C356200BED055 /* ChangePasswordViewController.xib */; };
 		0033CD7D225C356300BED055 /* AppointmentConfirmationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CCF7225C356200BED055 /* AppointmentConfirmationViewController.xib */; };
 		0033CD82225C356300BED055 /* AppointmentConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCFC225C356200BED055 /* AppointmentConfirmationViewController.swift */; };
 		0033CD85225C356300BED055 /* PurchaseSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CD00225C356200BED055 /* PurchaseSuccessViewController.swift */; };
 		0033CD86225C356300BED055 /* PurchaseSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CD01225C356200BED055 /* PurchaseSuccessViewController.xib */; };
-		0033CD87225C356300BED055 /* PurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CD03225C356200BED055 /* PurchaseViewController.xib */; };
-		0033CD88225C356300BED055 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CD04225C356200BED055 /* PurchaseViewController.swift */; };
-		0033CD89225C356300BED055 /* MarketplaceAllViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CD06225C356200BED055 /* MarketplaceAllViewController.xib */; };
-		0033CD8A225C356300BED055 /* MarketplaceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CD07225C356200BED055 /* MarketplaceItem.swift */; };
-		0033CD8B225C356300BED055 /* MarketplaceAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CD08225C356200BED055 /* MarketplaceAllViewController.swift */; };
-		0033CD8C225C356300BED055 /* MarketplaceItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CD09225C356200BED055 /* MarketplaceItem.xib */; };
 		0033CD8D225C356300BED055 /* AppointmentListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CD0B225C356200BED055 /* AppointmentListCell.swift */; };
 		0033CD8E225C356300BED055 /* AppointmentListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CD0C225C356200BED055 /* AppointmentListCell.xib */; };
 		0033CD8F225C356300BED055 /* AppointmentListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CD0D225C356200BED055 /* AppointmentListViewController.xib */; };
@@ -267,8 +241,6 @@
 		0033CCA1225C356100BED055 /* REQWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REQWrapper.swift; sourceTree = "<group>"; };
 		0033CCA2225C356100BED055 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		0033CCA3225C356100BED055 /* FSWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSWrapper.swift; sourceTree = "<group>"; };
-		0033CCA7225C356200BED055 /* StatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
-		0033CCA8225C356200BED055 /* StatisticsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatisticsViewController.xib; sourceTree = "<group>"; };
 		0033CCAD225C356200BED055 /* SettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
 		0033CCAE225C356200BED055 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		0033CCAF225C356200BED055 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
@@ -290,45 +262,21 @@
 		0033CCCB225C356200BED055 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		0033CCCC225C356200BED055 /* OrderNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderNavigationController.swift; sourceTree = "<group>"; };
 		0033CCCE225C356200BED055 /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
-		0033CCD0225C356200BED055 /* NewConversationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewConversationCell.xib; sourceTree = "<group>"; };
-		0033CCD1225C356200BED055 /* NewConversationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewConversationCell.swift; sourceTree = "<group>"; };
 		0033CCD2225C356200BED055 /* JobCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobCell.swift; sourceTree = "<group>"; };
 		0033CCD3225C356200BED055 /* JobCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobCell.xib; sourceTree = "<group>"; };
 		0033CCD4225C356200BED055 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
-		0033CCD6225C356200BED055 /* MerchandizeItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchandizeItemCell.xib; sourceTree = "<group>"; };
-		0033CCD7225C356200BED055 /* MarketPlaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarketPlaceViewController.xib; sourceTree = "<group>"; };
-		0033CCD8225C356200BED055 /* ChatCommandCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCommandCell.xib; sourceTree = "<group>"; };
-		0033CCD9225C356200BED055 /* MerchandizeItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchandizeItemCell.swift; sourceTree = "<group>"; };
-		0033CCDA225C356200BED055 /* MerchandizeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchandizeCell.swift; sourceTree = "<group>"; };
-		0033CCDB225C356200BED055 /* ChatCommandCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCommandCell.swift; sourceTree = "<group>"; };
-		0033CCDC225C356200BED055 /* ChatCommandItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCommandItemCell.swift; sourceTree = "<group>"; };
-		0033CCDD225C356200BED055 /* MarketPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketPlaceViewController.swift; sourceTree = "<group>"; };
-		0033CCDE225C356200BED055 /* MerchandizeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchandizeCell.xib; sourceTree = "<group>"; };
-		0033CCDF225C356200BED055 /* ChatCommandItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatCommandItemCell.xib; sourceTree = "<group>"; };
 		0033CCE1225C356200BED055 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		0033CCE2225C356200BED055 /* TermsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TermsViewController.xib; sourceTree = "<group>"; };
-		0033CCE4225C356200BED055 /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
-		0033CCE5225C356200BED055 /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
-		0033CCE6225C356200BED055 /* OnboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
-		0033CCE7225C356200BED055 /* OnboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardViewController.xib; sourceTree = "<group>"; };
 		0033CCE9225C356200BED055 /* ContractorSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractorSelectionViewController.swift; sourceTree = "<group>"; };
 		0033CCEA225C356200BED055 /* ContractorSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContractorSelectionViewController.xib; sourceTree = "<group>"; };
 		0033CCEC225C356200BED055 /* VerificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationViewController.xib; sourceTree = "<group>"; };
 		0033CCED225C356200BED055 /* VerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
-		0033CCEF225C356200BED055 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
-		0033CCF0225C356200BED055 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0033CCF2225C356200BED055 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		0033CCF3225C356200BED055 /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
 		0033CCF7225C356200BED055 /* AppointmentConfirmationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentConfirmationViewController.xib; sourceTree = "<group>"; };
 		0033CCFC225C356200BED055 /* AppointmentConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentConfirmationViewController.swift; sourceTree = "<group>"; };
 		0033CD00225C356200BED055 /* PurchaseSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseSuccessViewController.swift; sourceTree = "<group>"; };
 		0033CD01225C356200BED055 /* PurchaseSuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseSuccessViewController.xib; sourceTree = "<group>"; };
-		0033CD03225C356200BED055 /* PurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseViewController.xib; sourceTree = "<group>"; };
-		0033CD04225C356200BED055 /* PurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
-		0033CD06225C356200BED055 /* MarketplaceAllViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarketplaceAllViewController.xib; sourceTree = "<group>"; };
-		0033CD07225C356200BED055 /* MarketplaceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketplaceItem.swift; sourceTree = "<group>"; };
-		0033CD08225C356200BED055 /* MarketplaceAllViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketplaceAllViewController.swift; sourceTree = "<group>"; };
-		0033CD09225C356200BED055 /* MarketplaceItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarketplaceItem.xib; sourceTree = "<group>"; };
 		0033CD0B225C356200BED055 /* AppointmentListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentListCell.swift; sourceTree = "<group>"; };
 		0033CD0C225C356200BED055 /* AppointmentListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentListCell.xib; sourceTree = "<group>"; };
 		0033CD0D225C356200BED055 /* AppointmentListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentListViewController.xib; sourceTree = "<group>"; };
@@ -694,7 +642,6 @@
 				0019575C2282B4350049A58B /* ContractorApproved */,
 				00201F582276D8BF0011E490 /* BankInformation */,
 				000F8E742268148D007F7D01 /* ContractorVerification */,
-				0033CCA6225C356200BED055 /* Statistics */,
 				0033CCA9225C356200BED055 /* EditProfile */,
 				0033CCAC225C356200BED055 /* Settings */,
 				0033CCB1225C356200BED055 /* Rate */,
@@ -706,17 +653,12 @@
 				0033CCC5225C356200BED055 /* Camera */,
 				0033CCCA225C356200BED055 /* Payment */,
 				0033CCCD225C356200BED055 /* Contacts */,
-				0033CCD5225C356200BED055 /* Marketplace */,
 				0033CCE0225C356200BED055 /* Terms */,
-				0033CCE3225C356200BED055 /* Onboard */,
 				0033CCE8225C356200BED055 /* ContractorSelection */,
 				0033CCEB225C356200BED055 /* Verification */,
-				0033CCEE225C356200BED055 /* Profile */,
 				0033CCF1225C356200BED055 /* ChangePassword */,
 				0033CCF4225C356200BED055 /* AppointmentConfirmation */,
 				0033CCFF225C356200BED055 /* PurchaseSuccess */,
-				0033CD02225C356200BED055 /* Purchase */,
-				0033CD05225C356200BED055 /* MarketplaceAll */,
 				0033CD0A225C356200BED055 /* AppointmentList */,
 				0033CD0F225C356200BED055 /* Main */,
 				0033CD12225C356200BED055 /* Sign */,
@@ -725,15 +667,6 @@
 				0033CD1D225C356200BED055 /* Session */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		0033CCA6225C356200BED055 /* Statistics */ = {
-			isa = PBXGroup;
-			children = (
-				0033CCA8225C356200BED055 /* StatisticsViewController.xib */,
-				0033CCA7225C356200BED055 /* StatisticsViewController.swift */,
-			);
-			path = Statistics;
 			sourceTree = "<group>";
 		};
 		0033CCA9225C356200BED055 /* EditProfile */ = {
@@ -843,29 +776,10 @@
 		0033CCCF225C356200BED055 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				0033CCD0225C356200BED055 /* NewConversationCell.xib */,
-				0033CCD1225C356200BED055 /* NewConversationCell.swift */,
 				0033CCD3225C356200BED055 /* JobCell.xib */,
 				0033CCD2225C356200BED055 /* JobCell.swift */,
 			);
 			path = Cell;
-			sourceTree = "<group>";
-		};
-		0033CCD5225C356200BED055 /* Marketplace */ = {
-			isa = PBXGroup;
-			children = (
-				0033CCD6225C356200BED055 /* MerchandizeItemCell.xib */,
-				0033CCD7225C356200BED055 /* MarketPlaceViewController.xib */,
-				0033CCD8225C356200BED055 /* ChatCommandCell.xib */,
-				0033CCD9225C356200BED055 /* MerchandizeItemCell.swift */,
-				0033CCDA225C356200BED055 /* MerchandizeCell.swift */,
-				0033CCDB225C356200BED055 /* ChatCommandCell.swift */,
-				0033CCDC225C356200BED055 /* ChatCommandItemCell.swift */,
-				0033CCDD225C356200BED055 /* MarketPlaceViewController.swift */,
-				0033CCDE225C356200BED055 /* MerchandizeCell.xib */,
-				0033CCDF225C356200BED055 /* ChatCommandItemCell.xib */,
-			);
-			path = Marketplace;
 			sourceTree = "<group>";
 		};
 		0033CCE0225C356200BED055 /* Terms */ = {
@@ -875,17 +789,6 @@
 				0033CCE2225C356200BED055 /* TermsViewController.xib */,
 			);
 			path = Terms;
-			sourceTree = "<group>";
-		};
-		0033CCE3225C356200BED055 /* Onboard */ = {
-			isa = PBXGroup;
-			children = (
-				0033CCE4225C356200BED055 /* Slide.swift */,
-				0033CCE5225C356200BED055 /* Slide.xib */,
-				0033CCE6225C356200BED055 /* OnboardViewController.swift */,
-				0033CCE7225C356200BED055 /* OnboardViewController.xib */,
-			);
-			path = Onboard;
 			sourceTree = "<group>";
 		};
 		0033CCE8225C356200BED055 /* ContractorSelection */ = {
@@ -904,15 +807,6 @@
 				0033CCED225C356200BED055 /* VerificationViewController.swift */,
 			);
 			path = Verification;
-			sourceTree = "<group>";
-		};
-		0033CCEE225C356200BED055 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				0033CCEF225C356200BED055 /* ProfileViewController.xib */,
-				0033CCF0225C356200BED055 /* ProfileViewController.swift */,
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 		0033CCF1225C356200BED055 /* ChangePassword */ = {
@@ -940,26 +834,6 @@
 				0033CD01225C356200BED055 /* PurchaseSuccessViewController.xib */,
 			);
 			path = PurchaseSuccess;
-			sourceTree = "<group>";
-		};
-		0033CD02225C356200BED055 /* Purchase */ = {
-			isa = PBXGroup;
-			children = (
-				0033CD03225C356200BED055 /* PurchaseViewController.xib */,
-				0033CD04225C356200BED055 /* PurchaseViewController.swift */,
-			);
-			path = Purchase;
-			sourceTree = "<group>";
-		};
-		0033CD05225C356200BED055 /* MarketplaceAll */ = {
-			isa = PBXGroup;
-			children = (
-				0033CD06225C356200BED055 /* MarketplaceAllViewController.xib */,
-				0033CD07225C356200BED055 /* MarketplaceItem.swift */,
-				0033CD08225C356200BED055 /* MarketplaceAllViewController.swift */,
-				0033CD09225C356200BED055 /* MarketplaceItem.xib */,
-			);
-			path = MarketplaceAll;
 			sourceTree = "<group>";
 		};
 		0033CD0A225C356200BED055 /* AppointmentList */ = {
@@ -1198,23 +1072,17 @@
 			files = (
 				0033CD50225C356300BED055 /* ServiceDetailsViewController.xib in Resources */,
 				0033CDA7225C380500BED055 /* GoogleService-Info.plist in Resources */,
-				0033CD87225C356300BED055 /* PurchaseViewController.xib in Resources */,
-				0033CD6B225C356300BED055 /* MerchandizeCell.xib in Resources */,
 				0033CD5D225C356300BED055 /* ContactViewController.xib in Resources */,
 				0033CD99225C356300BED055 /* GiveFeedBackViewController.xib in Resources */,
 				0033CD8E225C356300BED055 /* AppointmentListCell.xib in Resources */,
 				001957642282B6600049A58B /* ContractorApprovedViewController.xib in Resources */,
-				0033CD8C225C356300BED055 /* MarketplaceItem.xib in Resources */,
 				0033CD51225C356300BED055 /* VerifyViewController.xib in Resources */,
 				0033CD94225C356300BED055 /* SignViewController.xib in Resources */,
-				0033CD65225C356300BED055 /* ChatCommandCell.xib in Resources */,
 				0033CD61225C356300BED055 /* JobCell.xib in Resources */,
 				0033CD7A225C356300BED055 /* ChangePasswordViewController.xib in Resources */,
 				0033CD56225C356300BED055 /* ForgotPasswordViewController.xib in Resources */,
 				0033CD96225C356300BED055 /* CalendarPopUpView.xib in Resources */,
-				0033CD64225C356300BED055 /* MarketPlaceViewController.xib in Resources */,
 				0033CD86225C356300BED055 /* PurchaseSuccessViewController.xib in Resources */,
-				0033CD89225C356300BED055 /* MarketplaceAllViewController.xib in Resources */,
 				0033CD75225C356300BED055 /* VerificationViewController.xib in Resources */,
 				0033CD47225C356300BED055 /* SettingViewController.xib in Resources */,
 				0033CD91225C356300BED055 /* MainViewController.xib in Resources */,
@@ -1222,27 +1090,20 @@
 				0033CC68225C312700BED055 /* LaunchScreen.storyboard in Resources */,
 				0033CD4A225C356300BED055 /* RateViewController.xib in Resources */,
 				000F8E7822681A48007F7D01 /* ContractorVerificationViewController.xib in Resources */,
-				0033CD70225C356300BED055 /* Slide.xib in Resources */,
 				000F8E7C226856DA007F7D01 /* ImageUploadCell.xib in Resources */,
 				0033CD97225C356300BED055 /* LoginViewController.xib in Resources */,
 				0033CD6E225C356300BED055 /* TermsViewController.xib in Resources */,
 				00201F5C2276D8C00011E490 /* BankInformationViewController.xib in Resources */,
-				0033CD77225C356300BED055 /* ProfileViewController.xib in Resources */,
 				001957682282D2130049A58B /* EditProfileViewController.xib in Resources */,
 				0033CD7D225C356300BED055 /* AppointmentConfirmationViewController.xib in Resources */,
 				0033CC65225C312700BED055 /* Assets.xcassets in Resources */,
-				0033CD63225C356300BED055 /* MerchandizeItemCell.xib in Resources */,
 				0033CD8F225C356300BED055 /* AppointmentListViewController.xib in Resources */,
-				0033CD6C225C356300BED055 /* ChatCommandItemCell.xib in Resources */,
 				0033CC63225C312300BED055 /* Main.storyboard in Resources */,
 				0033CD54225C356300BED055 /* AuthViewController.xib in Resources */,
 				0033CD4D225C356300BED055 /* AddressCell.xib in Resources */,
 				0033CD74225C356300BED055 /* ContractorSelectionViewController.xib in Resources */,
 				0033CD4C225C356300BED055 /* LocationSelectionViewController.xib in Resources */,
-				0033CD72225C356300BED055 /* OnboardViewController.xib in Resources */,
-				0033CD5E225C356300BED055 /* NewConversationCell.xib in Resources */,
 				0033CD45225C356300BED055 /* SettingCell.xib in Resources */,
-				0033CD42225C356300BED055 /* StatisticsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1427,11 +1288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0033CDA1225C356300BED055 /* HairlineView.swift in Sources */,
-				0033CD71225C356300BED055 /* OnboardViewController.swift in Sources */,
 				000F8E622266AA65007F7D01 /* CamError.swift in Sources */,
 				0033CD34225C356300BED055 /* Contractor.swift in Sources */,
 				000F8E522266AA65007F7D01 /* RecordButton+Extension+Anim.swift in Sources */,
-				0033CD5F225C356300BED055 /* NewConversationCell.swift in Sources */,
 				0033CD98225C356300BED055 /* LoginViewController.swift in Sources */,
 				0033CD35225C356300BED055 /* Constants.swift in Sources */,
 				000F8E5D2266AA65007F7D01 /* FlipButton.swift in Sources */,
@@ -1443,7 +1302,6 @@
 				000F8E572266AA65007F7D01 /* RoundButton.swift in Sources */,
 				0033CDA5225C356300BED055 /* AppointmentData.swift in Sources */,
 				0033CDA4225C356300BED055 /* UserData.swift in Sources */,
-				0033CD88225C356300BED055 /* PurchaseViewController.swift in Sources */,
 				000F8E562266AA65007F7D01 /* RecordButton.swift in Sources */,
 				000F8E602266AA65007F7D01 /* CamView+Extension+Delegate.swift in Sources */,
 				0033CDA9225C826300BED055 /* ContractorData.swift in Sources */,
@@ -1454,20 +1312,15 @@
 				0033CD38225C356300BED055 /* HalfSheetPresentationControllerHeightProtocol.swift in Sources */,
 				000F8E642266AA65007F7D01 /* CamView+Extension+Accessor.swift in Sources */,
 				000F8E712266AA65007F7D01 /* CMCameraVC+HybridCamDelegate.swift in Sources */,
-				0033CD67225C356300BED055 /* MerchandizeCell.swift in Sources */,
 				0033CD82225C356300BED055 /* AppointmentConfirmationViewController.swift in Sources */,
-				0033CD6F225C356300BED055 /* Slide.swift in Sources */,
 				000F8E672266AA65007F7D01 /* CamView+Extension+Setup.swift in Sources */,
 				000F8E682266AA65007F7D01 /* CamView+Extension+Action+Core.swift in Sources */,
 				0033CD4F225C356300BED055 /* ServiceDetailsViewController.swift in Sources */,
 				0033CD40225C356300BED055 /* FSWrapper.swift in Sources */,
 				0033CD3D225C356300BED055 /* PushNotifications.swift in Sources */,
-				0033CD6A225C356300BED055 /* MarketPlaceViewController.swift in Sources */,
 				0033CD2D225C356300BED055 /* Address.swift in Sources */,
 				0033CD2E225C356300BED055 /* Service.swift in Sources */,
-				0033CD69225C356300BED055 /* ChatCommandItemCell.swift in Sources */,
 				000F8E722266AA65007F7D01 /* CMImageVC+UIScrollViewDelegate.swift in Sources */,
-				0033CD8B225C356300BED055 /* MarketplaceAllViewController.swift in Sources */,
 				0033CD49225C356300BED055 /* RateViewController.swift in Sources */,
 				0033CD9E225C356300BED055 /* TableRowView.swift in Sources */,
 				00201F5B2276D8C00011E490 /* BankInformationViewController.swift in Sources */,
@@ -1486,17 +1339,13 @@
 				0033CD33225C356300BED055 /* Response.swift in Sources */,
 				0033CC5E225C312300BED055 /* AppDelegate.swift in Sources */,
 				000F8E5C2266AA65007F7D01 /* ExitButton.swift in Sources */,
-				0033CD8A225C356300BED055 /* MarketplaceItem.swift in Sources */,
-				0033CD78225C356300BED055 /* ProfileViewController.swift in Sources */,
 				0033CD9B225C356300BED055 /* SessionViewController.swift in Sources */,
 				000F8E732266AA65007F7D01 /* CMImageVC.swift in Sources */,
 				000F8E532266AA65007F7D01 /* RecordButton+Extension+Circle.swift in Sources */,
 				001957672282D2130049A58B /* EditProfileViewController.swift in Sources */,
-				0033CD41225C356300BED055 /* StatisticsViewController.swift in Sources */,
 				000F8E6C2266AA65007F7D01 /* VideoPlayerView.swift in Sources */,
 				000F8E5E2266AA65007F7D01 /* FlashButton.swift in Sources */,
 				0033CD39225C356300BED055 /* Extensions.swift in Sources */,
-				0033CD68225C356300BED055 /* ChatCommandCell.swift in Sources */,
 				000F8E6E2266AA65007F7D01 /* ProcessMediaView+Extension.swift in Sources */,
 				000F8E702266AA65007F7D01 /* CMCameraVC.swift in Sources */,
 				0033CD93225C356300BED055 /* CalendarPopUpView.swift in Sources */,
@@ -1508,7 +1357,6 @@
 				000F8E662266AA65007F7D01 /* CamView.swift in Sources */,
 				000F8E6D2266AA65007F7D01 /* ImageView.swift in Sources */,
 				0033CD79225C356300BED055 /* ChangePasswordViewController.swift in Sources */,
-				0033CD66225C356300BED055 /* MerchandizeItemCell.swift in Sources */,
 				0033CD52225C356300BED055 /* VerifyViewController.swift in Sources */,
 				0033CD32225C356300BED055 /* PaymentMethod.swift in Sources */,
 				0033CD5B225C356300BED055 /* OrderViewController.swift in Sources */,

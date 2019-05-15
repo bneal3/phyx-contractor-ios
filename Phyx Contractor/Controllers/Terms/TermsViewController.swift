@@ -1,6 +1,6 @@
 //
 //  TermsViewController.swift
-//  Camp
+//  Phyx Contractor
 //
 //  Created by sonnaris on 8/22/18.
 //  Copyright © 2018 sonnaris. All rights reserved.

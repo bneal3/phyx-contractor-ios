@@ -1,8 +1,8 @@
 //
 //  CMCameraVC+HybridCamDelegate.swift
-//  camp
+//  Phyx Contractor
 //
-//  Created by Kevin Hall on 6/27/18.
+//  Created by Benjamin Neal on 6/27/18.
 //  Copyright © 2018 Benjamin Neal. All rights reserved.
 //
 

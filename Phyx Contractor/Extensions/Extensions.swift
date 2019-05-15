@@ -1,6 +1,6 @@
 //
 //  Extensions.swift
-//  Camp
+//  Phyx Contractor
 //
 //  Created by apple on 12/28/18.
 //  Copyright © 2018 sonnaris. All rights reserved.
@@ -214,12 +214,6 @@ extension UIColor {
     
     static var phyx: UIColor { return UIColor(netHex: 0x388DFB) }
     static var contractor: UIColor { return UIColor(netHex: 0x3C558D) }
-    static var camp: UIColor { return UIColor(netHex: 0xF6695F) }
-    static var gold: UIColor { return UIColor(netHex: 0xFFD700) }
-    static var platinum: UIColor { return UIColor(netHex: 0xE5E4E2 ) }
-    static var silver: UIColor { return UIColor(netHex: 0xC0C0C0) }
-    static var bronze: UIColor { return UIColor(netHex: 0xCD7F32) }
-    static var diamond: UIColor { return UIColor(netHex: 0x9AC5DB) }
 }
 
 extension CALayer {
