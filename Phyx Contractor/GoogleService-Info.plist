@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>916305490800-o73p3ao1cp27j7v1b4jfs49bgik5r4lv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.916305490800-o73p3ao1cp27j7v1b4jfs49bgik5r4lv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDgD-gY0y3UjRRWB27tWljyaTHLGcM24cQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>916305490800</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Phyx.Phyx-Contractor</string>
+	<key>PROJECT_ID</key>
+	<string>phyx-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>phyx-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:916305490800:ios:7f55fdf3cb7283e5</string>
+	<key>DATABASE_URL</key>
+	<string>https://phyx-app.firebaseio.com</string>
+</dict>
+</plist>
