@@ -119,6 +119,12 @@ class AppointmentConfirmationViewController: UIViewController {
             }
             self.contractorLabel.text = user.name
             
+            if let rating = user.rating {
+                self.ratingLabel.text = "\(rating.clean)"
+            } else {
+                self.ratingLabel.text = "5"
+            }
+            
         }) { (response) in
             SVProgressHUD.dismiss()
         }

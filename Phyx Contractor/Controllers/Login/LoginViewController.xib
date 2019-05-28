@@ -35,7 +35,7 @@
                                         <action selector="clickedBack:" destination="-1" eventType="touchUpInside" id="uMB-9m-lt1"/>
                                     </connections>
                                 </button>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phyx-logo" translatesAutoresizingMaskIntoConstraints="NO" id="zMU-OC-atB">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Contractor" translatesAutoresizingMaskIntoConstraints="NO" id="zMU-OC-atB">
                                     <rect key="frame" x="167" y="52" width="80" height="80"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="80" id="7Bo-Hf-8KP"/>
@@ -45,11 +45,11 @@
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGD-0N-aBT">
                                     <rect key="frame" x="151" y="140" width="112" height="24"/>
                                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                                    <color key="textColor" red="0.29651466012001038" green="0.64317375421524048" blue="0.9664730429649353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="textColor" red="0.95044189690000003" green="0.96156471970000001" blue="0.97926467660000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" red="0.10622192174196243" green="0.16445493698120117" blue="0.33253994584083557" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="BGD-0N-aBT" firstAttribute="centerX" secondItem="LZ4-WC-bZ3" secondAttribute="centerX" id="1HV-VQ-K4x"/>
                                 <constraint firstItem="1Oq-te-AOh" firstAttribute="top" secondItem="LZ4-WC-bZ3" secondAttribute="top" constant="52" id="Ac3-1i-2Sp"/>
@@ -65,7 +65,7 @@
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundPop" translatesAutoresizingMaskIntoConstraints="NO" id="1iA-Cx-hwW">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="334.66666666666669"/>
-                                    <color key="backgroundColor" red="0.23529411759999999" green="0.33333333329999998" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.095354624092578888" green="0.1466335654258728" blue="0.29770547151565552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ht5-Sk-kQt">
                                     <rect key="frame" x="45" y="17" width="102" height="21"/>
@@ -161,7 +161,7 @@
                                 </view>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <color key="tintColor" red="0.23529411759999999" green="0.33333333329999998" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" red="0.10622192174196243" green="0.16445493698120117" blue="0.33253994584083557" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="Mda-j0-2wE" secondAttribute="trailing" constant="39" id="2Nz-ES-FYP"/>
                                 <constraint firstItem="Mda-j0-2wE" firstAttribute="leading" secondItem="8lK-On-xSl" secondAttribute="leading" constant="39" id="5HI-SH-ipL"/>
@@ -184,7 +184,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" red="0.23529411759999999" green="0.33333333329999998" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.10622192174196243" green="0.16445493698120117" blue="0.33253994584083557" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="LZ4-WC-bZ3" secondAttribute="trailing" id="4LP-tk-xzK"/>
                         <constraint firstItem="8lK-On-xSl" firstAttribute="top" secondItem="8Tk-J9-k1e" secondAttribute="top" constant="177" id="6kM-y0-Czn"/>
@@ -195,7 +195,7 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.1062219217" green="0.164454937" blue="0.33253994580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="8Tk-J9-k1e" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ca9-dQ-YVK"/>
                 <constraint firstItem="8Tk-J9-k1e" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="RyX-jf-4s8"/>
@@ -210,6 +210,6 @@
         <image name="BackBlack" width="24" height="11"/>
         <image name="BackgroundInput" width="275" height="41"/>
         <image name="BackgroundPop" width="375" height="240"/>
-        <image name="phyx-logo" width="1024" height="1024"/>
+        <image name="Contractor" width="1290" height="1281"/>
     </resources>
 </document>

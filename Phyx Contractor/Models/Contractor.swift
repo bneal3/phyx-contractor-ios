@@ -24,9 +24,12 @@ import RealmSwift
     dynamic var avatar: String? = nil
     dynamic var video: String? = nil
     dynamic var services: List<Int> = List<Int>()
+    dynamic var rating: Float? = nil
     
     dynamic var submitted: Bool = false
     dynamic var approved: Bool = false
+    
+    dynamic var device: String = ""
     
     convenience init(contractorData: [String: Any]){
         self.init()
@@ -47,7 +50,7 @@ import RealmSwift
             }
         }
         
-        if let nameData = contractorData["name"] as? String {
+        if let nameData = contractorData["name"] as? [String: Any] {
             if let first = nameData["first"] as? String {
                 self.first = first
             }
@@ -88,6 +91,14 @@ import RealmSwift
             if let approved = verificationData["approved"] as? Bool {
                 self.approved = approved
             }
+        }
+        
+        if let device = contractorData["device"] as? String {
+            self.device = device
+        }
+        
+        if let rating = contractorData["rating"] as? Float, rating > 0 {
+            self.rating = rating
         }
         
     }

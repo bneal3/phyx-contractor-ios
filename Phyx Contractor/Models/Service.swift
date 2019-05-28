@@ -23,6 +23,7 @@ var SERVICES: [[String: Any]] = [
         "description": ""
     ],
     [
+        "serviceId": -1,
         "name": "Massage",
         "image": "logo",
         "description": ""
@@ -30,6 +31,12 @@ var SERVICES: [[String: Any]] = [
     [
         "serviceId": 8,
         "name": "Acupuncture",
+        "image": "logo",
+        "description": ""
+    ],
+    [
+        "serviceId": 9,
+        "name": "Physical Therapy",
         "image": "logo",
         "description": ""
     ]

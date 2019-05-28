@@ -77,6 +77,11 @@ class ContactViewController: UIViewController {
             self.navigationController?.pushViewController(contractorVerificationVC, animated: true)
         }
         
+        if ContractorData.shared().getPaymentId() == nil {
+            let bankInformationVC = BankInformationViewController(nibName: "BankInformationViewController", bundle: nil)
+            self.navigationController?.pushViewController(bankInformationVC, animated: true)
+        }
+        
         if ContractorData.shared().getApproved() {
             
             if ContractorData.shared().hasSeenApproved() {
@@ -96,6 +101,7 @@ class ContactViewController: UIViewController {
                 })
                 self.tableView.reloadData()
             }) { (error) in }
+            
         }
     }
 
@@ -137,12 +143,12 @@ class ContactViewController: UIViewController {
         
         populateMenu()
         
-        print(jobs)
-        
-        if ContractorData.shared().getPaymentId() == nil {
-            let bankInformationVC = BankInformationViewController(nibName: "BankInformationViewController", bundle: nil)
-            self.navigationController?.pushViewController(bankInformationVC, animated: true)
+        if ContractorData.shared().getDevice() != ContractorData.shared().getPlayerId() {
+            ApiService.shared().setDevice(device: ContractorData.shared().getPlayerId() ?? "", onSuccess: { (response) in
+                ContractorData.shared().setDevice(device: ContractorData.shared().getPlayerId() ?? "")
+            }, onFailure: { (error) in })
         }
+        
     }
     
     deinit {

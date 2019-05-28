@@ -51,6 +51,8 @@ class ContractorData {
         userDefaults.set(contractor.submitted, forKey: "contractor_submitted")
         userDefaults.set(contractor.approved, forKey: "contractor_approved")
         
+        userDefaults.set(contractor.device, forKey: "contractor_device")
+        
         userDefaults.synchronize()
     }
     
@@ -114,6 +116,12 @@ class ContractorData {
         userDefaults.synchronize()
     }
     
+    public func setDevice(device: String) {
+        let userDefaults = UserDefaults.standard
+        userDefaults.set(device, forKey: "contractor_device")
+        userDefaults.synchronize()
+    }
+    
     // Get
     public func getContractor() -> Contractor {
         var contractorData: [String: Any] = [:]
@@ -130,10 +138,13 @@ class ContractorData {
         }
         contractorData["identifiers"] = identifiers
         
+        var name: [String: Any] = [:]
         let first = userDefaults.object(forKey: "contractor_first") as! String
-        contractorData["first"] = first
+        name["first"] = first
         let last = userDefaults.object(forKey: "contractor_last") as! String
-        contractorData["last"] = last
+        name["last"] = last
+        contractorData["name"] = name
+        
         let address = userDefaults.object(forKey: "contractor_address") as! String
         contractorData["address"] = address
         let birthday = userDefaults.object(forKey: "contractor_birthday") as! Int64
@@ -158,6 +169,12 @@ class ContractorData {
         contractorData["submitted"] = submitted
         let approved = userDefaults.object(forKey: "contractor_approved") as! Bool
         contractorData["approved"] = approved
+        
+        var device = ""
+        if let _device = userDefaults.object(forKey: "contractor_device") as? String {
+            device = _device
+        }
+        contractorData["device"] = device
         
         let contractor = Contractor(contractorData: contractorData)
         return contractor
@@ -238,6 +255,11 @@ class ContractorData {
         return userDefaults.object(forKey: "contractor_approved") as! Bool
     }
     
+    public func getDevice() -> String {
+        let userDefaults = UserDefaults.standard
+        return userDefaults.object(forKey: "contractor_device") as! String
+    }
+    
     // First time usage
     public func setFirstTimeUsage(screen: String) {
         let userDefaults = UserDefaults.standard
@@ -285,6 +307,7 @@ class ContractorData {
         userDefaults.removeObject(forKey: "contractor_approved")
         
         userDefaults.removeObject(forKey: "contractor_services")
+        userDefaults.removeObject(forKey: "contractor_device")
         
         userDefaults.removeObject(forKey: "contractor_saw_approved")
         

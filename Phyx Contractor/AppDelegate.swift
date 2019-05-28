@@ -11,7 +11,6 @@ import Firebase
 import Realm
 import RealmSwift
 import OneSignal
-import SquareInAppPaymentsSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
-        SQIPInAppPaymentsSDK.squareApplicationID = Constants.Square.APPLICATION_ID
+        // SQIPInAppPaymentsSDK.squareApplicationID = Constants.Square.APPLICATION_ID
         
         configRealm()
         configOS(launchOptions: launchOptions)
@@ -36,12 +35,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //        }
         
         // TEST: Set dummy appointment
-        let appointmentData: [String: Any] = [
-            "userId": "gangin2",
-            "meetingTime": 1555989806283,
-            "location": "420 Illinois St, El Segundo CA, 90245"
-        ]
-        AppointmentData.shared().setAppointment(appointment: Appointment(appointmentData: appointmentData))
+//        let appointmentData: [String: Any] = [
+//            "userId": "gangin2",
+//            "meetingTime": 1555989806283,
+//            "location": "420 Illinois St, El Segundo CA, 90245"
+//        ]
+//        AppointmentData.shared().setAppointment(appointment: Appointment(appointmentData: appointmentData))
         
         if ContractorData.shared().isLogged() {
             RealmService.shared.setDefaultRealmForUser(id: ContractorData.shared().getId())

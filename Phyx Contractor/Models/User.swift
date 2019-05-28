@@ -18,8 +18,9 @@ import RealmSwift
     dynamic var birthday: Int64 = 0
     dynamic var avatar: String? = nil
     
-    var isSelected = false
+    dynamic var rating: Float? = nil
     
+    var isSelected = false
     
     convenience init(userData: [String: Any]){
         self.init()
@@ -48,6 +49,10 @@ import RealmSwift
         
         if let avi = userData["avatar"] as? String, avi != "" {
             self.avatar = avi
+        }
+        
+        if let rating = userData["rating"] as? Float, rating > 0 {
+            self.rating = rating
         }
 
     }

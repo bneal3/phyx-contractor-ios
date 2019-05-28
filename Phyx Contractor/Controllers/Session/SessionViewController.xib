@@ -313,9 +313,9 @@
                                                     </constraints>
                                                 </view>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cT-La-850">
-                                                    <rect key="frame" x="100" y="77" width="50" height="30"/>
+                                                    <rect key="frame" x="75" y="77" width="75" height="30"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="50" id="vmM-Xr-Du6"/>
+                                                        <constraint firstAttribute="width" constant="75" id="vmM-Xr-Du6"/>
                                                         <constraint firstAttribute="height" constant="30" id="xH4-mX-Aeq"/>
                                                     </constraints>
                                                     <state key="normal" title="Cancel">
@@ -326,16 +326,15 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fb4-w2-oqg">
-                                                    <rect key="frame" x="189" y="77" width="50" height="30"/>
+                                                    <rect key="frame" x="189" y="77" width="75" height="30"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="50" id="3jl-H5-pz6"/>
+                                                        <constraint firstAttribute="width" constant="75" id="3jl-H5-pz6"/>
                                                         <constraint firstAttribute="height" constant="30" id="oh4-Kn-38X"/>
                                                     </constraints>
                                                     <state key="normal" title="Begin">
                                                         <color key="titleColor" red="0.23529411759999999" green="0.33333333329999998" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
-                                                        <action selector="cancelTapped:" destination="-1" eventType="touchUpInside" id="Yq8-8c-qsF"/>
                                                         <action selector="statusTapped:" destination="-1" eventType="touchUpInside" id="nLY-i0-r0h"/>
                                                     </connections>
                                                 </button>
@@ -343,13 +342,13 @@
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="3cT-La-850" firstAttribute="top" secondItem="c3f-zZ-2aN" secondAttribute="bottom" constant="8" id="0A4-r3-etq"/>
-                                                <constraint firstItem="htm-IP-ehP" firstAttribute="trailing" secondItem="fb4-w2-oqg" secondAttribute="trailing" constant="100" id="8l1-Ta-cpo"/>
+                                                <constraint firstItem="htm-IP-ehP" firstAttribute="trailing" secondItem="fb4-w2-oqg" secondAttribute="trailing" constant="75" id="8l1-Ta-cpo"/>
                                                 <constraint firstItem="fb4-w2-oqg" firstAttribute="top" secondItem="c3f-zZ-2aN" secondAttribute="bottom" constant="8" id="C2q-Ve-YDN"/>
                                                 <constraint firstItem="c3f-zZ-2aN" firstAttribute="top" secondItem="qdx-1t-FMa" secondAttribute="bottom" constant="4" id="Csw-bk-1ST"/>
                                                 <constraint firstAttribute="height" constant="120" id="RP0-eN-pa0"/>
                                                 <constraint firstItem="qdx-1t-FMa" firstAttribute="leading" secondItem="htm-IP-ehP" secondAttribute="leading" constant="24" id="UqS-JL-ZEo"/>
                                                 <constraint firstItem="c3f-zZ-2aN" firstAttribute="leading" secondItem="htm-IP-ehP" secondAttribute="leading" constant="4" id="dYN-X1-L5Q"/>
-                                                <constraint firstItem="3cT-La-850" firstAttribute="leading" secondItem="htm-IP-ehP" secondAttribute="leading" constant="100" id="oIO-Cq-xpW"/>
+                                                <constraint firstItem="3cT-La-850" firstAttribute="leading" secondItem="htm-IP-ehP" secondAttribute="leading" constant="75" id="oIO-Cq-xpW"/>
                                                 <constraint firstItem="c3f-zZ-2aN" firstAttribute="trailing" secondItem="htm-IP-ehP" secondAttribute="trailing" constant="4" id="qKx-k3-va5"/>
                                                 <constraint firstItem="qdx-1t-FMa" firstAttribute="top" secondItem="htm-IP-ehP" secondAttribute="top" constant="8" id="v9q-kg-T8h"/>
                                             </constraints>

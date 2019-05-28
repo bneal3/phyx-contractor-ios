@@ -459,10 +459,21 @@
                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile Picture" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbc-RW-4Kb">
+                            <rect key="frame" x="40" y="84" width="93" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="93" id="AZk-sF-MuI"/>
+                                <constraint firstAttribute="height" constant="21" id="omn-qo-0tH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                            <color key="textColor" red="0.54117647059999996" green="0.51764705879999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="iRt-VO-8Nl" firstAttribute="top" secondItem="c23-I1-gXT" secondAttribute="bottom" constant="14" id="5oY-hH-fXR"/>
+                        <constraint firstItem="fbc-RW-4Kb" firstAttribute="top" secondItem="c23-I1-gXT" secondAttribute="bottom" constant="8" id="7UD-Sh-j0q"/>
                         <constraint firstItem="4Dd-0c-qfH" firstAttribute="leading" secondItem="6ct-IU-Jaw" secondAttribute="leading" id="9MR-qC-Wbp"/>
                         <constraint firstItem="1LG-sp-Tw9" firstAttribute="leading" secondItem="6ct-IU-Jaw" secondAttribute="leading" constant="12" id="BQJ-Bu-JPs"/>
                         <constraint firstAttribute="bottom" secondItem="K7A-1n-Fxk" secondAttribute="bottom" id="EUf-fE-6Bo"/>
@@ -472,9 +483,9 @@
                         <constraint firstItem="4Dd-0c-qfH" firstAttribute="top" secondItem="iRt-VO-8Nl" secondAttribute="bottom" constant="14" id="WwR-FX-Ov1"/>
                         <constraint firstItem="66c-QE-tzd" firstAttribute="leading" secondItem="6ct-IU-Jaw" secondAttribute="leading" id="asA-r6-pgM"/>
                         <constraint firstItem="iRt-VO-8Nl" firstAttribute="centerX" secondItem="6ct-IU-Jaw" secondAttribute="centerX" id="b6N-an-OSk"/>
-                        <constraint firstItem="4Dd-0c-qfH" firstAttribute="top" secondItem="1LG-sp-Tw9" secondAttribute="bottom" constant="110" id="jLf-kZ-Heo"/>
                         <constraint firstItem="66c-QE-tzd" firstAttribute="top" secondItem="6ct-IU-Jaw" secondAttribute="top" id="p8K-Qm-3ia"/>
                         <constraint firstItem="K7A-1n-Fxk" firstAttribute="leading" secondItem="6ct-IU-Jaw" secondAttribute="leading" id="rXB-0v-tUw"/>
+                        <constraint firstItem="fbc-RW-4Kb" firstAttribute="leading" secondItem="6ct-IU-Jaw" secondAttribute="leading" constant="40" id="tx8-MA-nmP"/>
                         <constraint firstItem="c23-I1-gXT" firstAttribute="centerX" secondItem="6ct-IU-Jaw" secondAttribute="centerX" id="vVO-q9-PRQ"/>
                         <constraint firstAttribute="bottom" secondItem="66c-QE-tzd" secondAttribute="bottom" id="vyk-zR-O3o"/>
                         <constraint firstAttribute="trailing" secondItem="66c-QE-tzd" secondAttribute="trailing" id="wgG-cF-A1H"/>

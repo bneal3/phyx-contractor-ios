@@ -41,17 +41,33 @@ class JobCell: UITableViewCell {
     }
     
     public func setCell(appointment: Appointment) {
-        if appointment.service > 1 || appointment.service < 8 {
-            var service = SERVICES.first(where: { $0["serviceId"] as! Int == appointment.service })
+        ApiService.shared().getUser(id: appointment.userId, onSuccess: { (user) in
+            
+            if let avatar = user.avatar, avatar != "" {
+                FSWrapper.wrapper.loadImage(url: URL(string: avatar)!, completion: { (image, error) in
+                    self.avatar.image = image
+                })
+            } else {
+                self.avatar.image = UIImage(named: "AvatarPlaceholder")
+            }
+            
+            self.clientNameLabel.text = user.name
+        }) { (response) in         }
+        
+        if appointment.service <= 1 || appointment.service >= 8 {
+            var service = SERVICES.first(where: {
+                if let serviceId = $0["serviceId"] as? Int {
+                    return appointment.service == serviceId
+                }
+                return false
+            })
             nameLabel.text = service!["name"] as! String
         } else {
             var massage = MASSAGES.first(where: { $0["serviceId"] as! Int == appointment.service })
             nameLabel.text = massage!["name"] as! String
         }
         
-        clientNameLabel.text = "Ben Neal"
-        addressLabel.text = "Los Angeles" // appointment.address.city
-        // TODO: Get avatar image
+        addressLabel.text = appointment.location
         
     }
     

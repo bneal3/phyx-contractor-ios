@@ -114,8 +114,6 @@
 		0033CD82225C356300BED055 /* AppointmentConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CCFC225C356200BED055 /* AppointmentConfirmationViewController.swift */; };
 		0033CD85225C356300BED055 /* PurchaseSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CD00225C356200BED055 /* PurchaseSuccessViewController.swift */; };
 		0033CD86225C356300BED055 /* PurchaseSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CD01225C356200BED055 /* PurchaseSuccessViewController.xib */; };
-		0033CD8D225C356300BED055 /* AppointmentListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CD0B225C356200BED055 /* AppointmentListCell.swift */; };
-		0033CD8E225C356300BED055 /* AppointmentListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CD0C225C356200BED055 /* AppointmentListCell.xib */; };
 		0033CD8F225C356300BED055 /* AppointmentListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CD0D225C356200BED055 /* AppointmentListViewController.xib */; };
 		0033CD90225C356300BED055 /* AppointmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CD0E225C356200BED055 /* AppointmentListViewController.swift */; };
 		0033CD91225C356300BED055 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0033CD10225C356200BED055 /* MainViewController.xib */; };
@@ -141,6 +139,8 @@
 		0033CDA5225C356300BED055 /* AppointmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CD2C225C356200BED055 /* AppointmentData.swift */; };
 		0033CDA7225C380500BED055 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0033CDA6225C380400BED055 /* GoogleService-Info.plist */; };
 		0033CDA9225C826300BED055 /* ContractorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0033CDA8225C826300BED055 /* ContractorData.swift */; };
+		006BDF06229A1AC9009DEB88 /* AppointmentListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006BDF04229A1AC8009DEB88 /* AppointmentListCell.swift */; };
+		006BDF07229A1AC9009DEB88 /* AppointmentListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 006BDF05229A1AC9009DEB88 /* AppointmentListCell.xib */; };
 		20005EA0EF44B593573E3D61 /* Pods_Phyx_Contractor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71859D76386F593127FCFE4 /* Pods_Phyx_Contractor.framework */; };
 		56BB91E54AE0E2A646B4F497 /* Pods_Phyx_ContractorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B5983555E2AB6EB30D7B4E /* Pods_Phyx_ContractorTests.framework */; };
 		6EAB2F59AB92A3D577FD3670 /* Pods_Phyx_ContractorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFDB439838473B3C6087F95 /* Pods_Phyx_ContractorUITests.framework */; };
@@ -277,8 +277,6 @@
 		0033CCFC225C356200BED055 /* AppointmentConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentConfirmationViewController.swift; sourceTree = "<group>"; };
 		0033CD00225C356200BED055 /* PurchaseSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseSuccessViewController.swift; sourceTree = "<group>"; };
 		0033CD01225C356200BED055 /* PurchaseSuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PurchaseSuccessViewController.xib; sourceTree = "<group>"; };
-		0033CD0B225C356200BED055 /* AppointmentListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentListCell.swift; sourceTree = "<group>"; };
-		0033CD0C225C356200BED055 /* AppointmentListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentListCell.xib; sourceTree = "<group>"; };
 		0033CD0D225C356200BED055 /* AppointmentListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentListViewController.xib; sourceTree = "<group>"; };
 		0033CD0E225C356200BED055 /* AppointmentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentListViewController.swift; sourceTree = "<group>"; };
 		0033CD10225C356200BED055 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
@@ -305,6 +303,8 @@
 		0033CDA6225C380400BED055 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0033CDA8225C826300BED055 /* ContractorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractorData.swift; sourceTree = "<group>"; };
 		0033CDAA225C9DAB00BED055 /* Phyx Contractor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Phyx Contractor.entitlements"; sourceTree = "<group>"; };
+		006BDF04229A1AC8009DEB88 /* AppointmentListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentListCell.swift; sourceTree = "<group>"; };
+		006BDF05229A1AC9009DEB88 /* AppointmentListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentListCell.xib; sourceTree = "<group>"; };
 		0780DF7AF03B829D377D9443 /* Pods-Phyx ContractorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phyx ContractorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phyx ContractorUITests/Pods-Phyx ContractorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3FF42D108F2CA02AB7B19969 /* Pods-Phyx ContractorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phyx ContractorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phyx ContractorUITests/Pods-Phyx ContractorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5155DE300C7FFB1487921CAB /* Pods-Phyx ContractorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phyx ContractorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phyx ContractorTests/Pods-Phyx ContractorTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -839,8 +839,8 @@
 		0033CD0A225C356200BED055 /* AppointmentList */ = {
 			isa = PBXGroup;
 			children = (
-				0033CD0B225C356200BED055 /* AppointmentListCell.swift */,
-				0033CD0C225C356200BED055 /* AppointmentListCell.xib */,
+				006BDF05229A1AC9009DEB88 /* AppointmentListCell.xib */,
+				006BDF04229A1AC8009DEB88 /* AppointmentListCell.swift */,
 				0033CD0D225C356200BED055 /* AppointmentListViewController.xib */,
 				0033CD0E225C356200BED055 /* AppointmentListViewController.swift */,
 			);
@@ -1074,10 +1074,10 @@
 				0033CDA7225C380500BED055 /* GoogleService-Info.plist in Resources */,
 				0033CD5D225C356300BED055 /* ContactViewController.xib in Resources */,
 				0033CD99225C356300BED055 /* GiveFeedBackViewController.xib in Resources */,
-				0033CD8E225C356300BED055 /* AppointmentListCell.xib in Resources */,
 				001957642282B6600049A58B /* ContractorApprovedViewController.xib in Resources */,
 				0033CD51225C356300BED055 /* VerifyViewController.xib in Resources */,
 				0033CD94225C356300BED055 /* SignViewController.xib in Resources */,
+				006BDF07229A1AC9009DEB88 /* AppointmentListCell.xib in Resources */,
 				0033CD61225C356300BED055 /* JobCell.xib in Resources */,
 				0033CD7A225C356300BED055 /* ChangePasswordViewController.xib in Resources */,
 				0033CD56225C356300BED055 /* ForgotPasswordViewController.xib in Resources */,
@@ -1331,7 +1331,6 @@
 				0033CD3E225C356300BED055 /* REQWrapper.swift in Sources */,
 				0033CD60225C356300BED055 /* JobCell.swift in Sources */,
 				0033CD76225C356300BED055 /* VerificationViewController.swift in Sources */,
-				0033CD8D225C356300BED055 /* AppointmentListCell.swift in Sources */,
 				0033CC60225C312300BED055 /* ViewController.swift in Sources */,
 				000F8E7722681A48007F7D01 /* ContractorVerificationViewController.swift in Sources */,
 				000F8E552266AA65007F7D01 /* RecordButton+Extension+Event.swift in Sources */,
@@ -1367,6 +1366,7 @@
 				0033CD9D225C356300BED055 /* ExampleView.swift in Sources */,
 				0033CD48225C356300BED055 /* SettingCell.swift in Sources */,
 				0033CD4B225C356300BED055 /* LocationSelectionViewController.swift in Sources */,
+				006BDF06229A1AC9009DEB88 /* AppointmentListCell.swift in Sources */,
 				0033CD37225C356300BED055 /* ChargeApi.swift in Sources */,
 				0033CD9A225C356300BED055 /* GiveFeedBackViewController.swift in Sources */,
 				0033CD3F225C356300BED055 /* LocationManager.swift in Sources */,

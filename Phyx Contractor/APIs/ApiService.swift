@@ -90,7 +90,7 @@ class ApiService {
         request.parameters = parameters
         REQWrapper.shared.send(request: request, onSuccess: { response in
             
-            UserData.shared().setTutorial()
+            // ContractorData.shared().setTutorial()
             self.completeLogin(response: response, password: password, onSuccess: success, onFailure: failure)
             
         }, onError: failure)
@@ -136,6 +136,25 @@ class ApiService {
     }
     
     // Profile
+    
+    func setDevice(device: String, onSuccess success: @escaping (_ result: Response) -> Void, onFailure failure: @escaping (_ error: Any) -> Void) {
+        
+        let parameters = [
+            "device": device
+        ]
+        
+        var request: HTTPRequest = HTTPRequest()
+        request.method = HTTPMethod.patch
+        request.path = "/contractors/device"
+        request.parameters = parameters
+        
+        REQWrapper.shared.send(request: request, onSuccess: { response in
+            
+            success(response)
+            
+        }, onError: failure)
+        
+    }
     
     func changePassword(oldPassword: String, newPassword: String, onSuccess success: @escaping(_ result: Response) -> Void, onFailure failure: @escaping(_ error: Any) -> Void) {
         

@@ -152,9 +152,11 @@ class SessionViewController: UIViewController {
             if appointment.status == 4 {
                 rateBtn.isHidden = false
                 statusBtn.isHidden = true
+                cancelBtn.isHidden = true
             } else {
                 rateBtn.isHidden = true
                 statusBtn.isHidden = false
+                cancelBtn.isHidden = false
             }
             statusLabel.text = APPOINTMENT_STATUS[appointment.status]
         } else {
@@ -219,13 +221,19 @@ class SessionViewController: UIViewController {
     
     @IBAction func statusTapped(_ sender: Any) {
         if appointment.status == 1 {
-            ApiService.shared().patchAppointment(id: appointment.id, status: 1, rating: nil, onSuccess: { (appointment) in
+            ApiService.shared().patchAppointment(id: appointment.id, status: 2, rating: nil, onSuccess: { (received) in
                 
                 self.openMapForPlace()
                 
+                self.appointment = received
+                self.setupAppointment()
+                
             }) { (response) in }
         } else {
-            ApiService.shared().patchAppointment(id: appointment.id, status: appointment.status + 1, rating: nil, onSuccess: { (appointment) in
+            ApiService.shared().patchAppointment(id: appointment.id, status: appointment.status + 1, rating: nil, onSuccess: { (received) in
+                
+                self.appointment = received
+                self.setupAppointment()
 
             }) { (response) in }
         }
@@ -256,7 +264,7 @@ class SessionViewController: UIViewController {
     func openMapForPlace() {
         
         let geoCoder = CLGeocoder()
-        geoCoder.geocodeAddressString(AppointmentData.shared().getLocation()) { (placemarks, error) in
+        geoCoder.geocodeAddressString(appointment.location) { (placemarks, error) in
             guard let placemarks = placemarks, let location = placemarks.first?.location else {
                 // handle no location found
                 // TODO: Alert

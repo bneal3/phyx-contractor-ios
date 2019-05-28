@@ -33,7 +33,12 @@ class RateViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        starReset()
+        
+        if let rating = appointment.rating, rating > 0 {
+            starTapped(rating, update: false)
+        } else {
+            starReset()
+        }
     }
     
     override func viewDidLoad() {
@@ -60,9 +65,7 @@ class RateViewController: UIViewController {
         
         containerView.layer.masksToBounds = true
         containerView.layer.cornerRadius = 5
-        
-        let appointment = AppointmentData.shared().getAppointment()
-        
+                
         serviceLabel.text = SERVICE_TITLES[appointment.service]
         
         let dateFormatter = DateFormatter()
@@ -85,10 +88,6 @@ class RateViewController: UIViewController {
         }
         contractorLabel.text = user.name
         
-        // FLOW: Populate rating if there
-        if let rating = appointment.rating {
-            starTapped(rating, update: false)
-        }
     }
     
     @IBAction func closeTapped(_ sender: Any) {

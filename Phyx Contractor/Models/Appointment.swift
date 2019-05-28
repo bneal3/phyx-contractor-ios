@@ -27,6 +27,7 @@ enum APPOINTMENT_SERVICES: Int {
     case Reflexology
     case Couples
     case Acupuncture
+    case PhysicalTherapy
 }
 
 var SERVICE_TITLES = [
@@ -38,7 +39,8 @@ var SERVICE_TITLES = [
     "Pregnancy Massage",
     "Refloxology Massage",
     "Couples Massage",
-    "Acupuncture"
+    "Acupuncture",
+    "Physical Therapy"
 ]
 
 var MASSAGE_LENGTHS: [Int] = [
@@ -47,6 +49,10 @@ var MASSAGE_LENGTHS: [Int] = [
     90,
     120
 ]
+
+//var MASSAGE_PRICES = [
+//    
+//]
 
 // API Appointment Model
 @objcMembers class Appointment: Object {
