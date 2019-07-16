@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -144,6 +144,7 @@
 		20005EA0EF44B593573E3D61 /* Pods_Phyx_Contractor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71859D76386F593127FCFE4 /* Pods_Phyx_Contractor.framework */; };
 		56BB91E54AE0E2A646B4F497 /* Pods_Phyx_ContractorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B5983555E2AB6EB30D7B4E /* Pods_Phyx_ContractorTests.framework */; };
 		6EAB2F59AB92A3D577FD3670 /* Pods_Phyx_ContractorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFDB439838473B3C6087F95 /* Pods_Phyx_ContractorUITests.framework */; };
+		B5BB3E6E22A308F8006CDEB9 /* example.mov in Resources */ = {isa = PBXBuildFile; fileRef = B5BB3E6D22A308F7006CDEB9 /* example.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -311,6 +312,7 @@
 		6096ECA16F46212A327B2821 /* Pods-Phyx Contractor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phyx Contractor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor.debug.xcconfig"; sourceTree = "<group>"; };
 		62B5983555E2AB6EB30D7B4E /* Pods_Phyx_ContractorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phyx_ContractorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A71859D76386F593127FCFE4 /* Pods_Phyx_Contractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phyx_Contractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BB3E6D22A308F7006CDEB9 /* example.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = example.mov; path = ../../../../../../Downloads/example.mov; sourceTree = "<group>"; };
 		C6D638AF4961E356DDCA85F7 /* Pods-Phyx Contractor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phyx Contractor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor.release.xcconfig"; sourceTree = "<group>"; };
 		E79F81C70257AE3148A7F20D /* Pods-Phyx ContractorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phyx ContractorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phyx ContractorTests/Pods-Phyx ContractorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDFDB439838473B3C6087F95 /* Pods_Phyx_ContractorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phyx_ContractorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -542,6 +544,7 @@
 		0033CC5C225C312300BED055 /* Phyx Contractor */ = {
 			isa = PBXGroup;
 			children = (
+				B5BB3E6C22A308EA006CDEB9 /* Res */,
 				0033CDAA225C9DAB00BED055 /* Phyx Contractor.entitlements */,
 				0033CC98225C356100BED055 /* Animations */,
 				0033CC94225C356100BED055 /* APIs */,
@@ -956,6 +959,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B5BB3E6C22A308EA006CDEB9 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				B5BB3E6D22A308F7006CDEB9 /* example.mov */,
+			);
+			name = Res;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1096,6 +1108,7 @@
 				00201F5C2276D8C00011E490 /* BankInformationViewController.xib in Resources */,
 				001957682282D2130049A58B /* EditProfileViewController.xib in Resources */,
 				0033CD7D225C356300BED055 /* AppointmentConfirmationViewController.xib in Resources */,
+				B5BB3E6E22A308F8006CDEB9 /* example.mov in Resources */,
 				0033CC65225C312700BED055 /* Assets.xcassets in Resources */,
 				0033CD8F225C356300BED055 /* AppointmentListViewController.xib in Resources */,
 				0033CC63225C312300BED055 /* Main.storyboard in Resources */,
@@ -1130,66 +1143,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AudioPlayerSwift/AudioPlayer.framework",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/CircleProgressView/CircleProgressView.framework",
-				"${BUILT_PRODUCTS_DIR}/DeviceKit/DeviceKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/InputMask/InputMask.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/LSDialogViewController/LSDialogViewController.framework",
-				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
-				"${BUILT_PRODUCTS_DIR}/Popover/Popover.framework",
-				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${PODS_ROOT}/SquareInAppPaymentsSDK/SquareInAppPaymentsSDK.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyAvatar/SwiftyAvatar.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioPlayer.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleProgressView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DeviceKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InputMask.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSDialogViewController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Popover.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SquareInAppPaymentsSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyAvatar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		44EBE74F42D91A0C8C48C09E /* [CP] Check Pods Manifest.lock */ = {
@@ -1264,20 +1226,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor-resources.sh",
-				"${PODS_ROOT}/AccountKit/AccountKitStrings.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccountKitStrings.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Phyx Contractor/Pods-Phyx Contractor-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

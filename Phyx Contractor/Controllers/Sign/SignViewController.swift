@@ -38,7 +38,8 @@ class SignViewController: UIViewController {
     
     var phone: String?
     
-    var bioPlaceholder = "Talk about yourself and your experience."
+    var bioPlaceholder = "I graduated Chiropractic school in 2012 and have been in private practice since. Outside of Chiropractic, I like sports, running, and finding good healthy restaurants."
+    var didTapBio = false
     
     private let formatter : DateFormatter = {
         
@@ -118,9 +119,11 @@ class SignViewController: UIViewController {
         calendarPopup.selectButton.addTarget(self, action: #selector(setSelectedDate), for: .touchUpInside)
         
         termsLabel.text = "By registering, you agree to the Terms of Service"
+        
+        bioField.delegate = self
         bioField.text = bioPlaceholder
         bioField.textColor = UIColor.contractor
-        bioField.selectedTextRange = bioField.textRange(from: bioField.beginningOfDocument, to: bioField.beginningOfDocument)
+        // bioField.selectedTextRange = bioField.textRange(from: bioField.beginningOfDocument, to: bioField.beginningOfDocument)
         
         let tapGestureTerms = UITapGestureRecognizer(target: self, action: #selector(clickedTerms))
         termsLabel.addGestureRecognizer(tapGestureTerms)
@@ -194,9 +197,13 @@ class SignViewController: UIViewController {
         let cameraRoll = UIAlertAction(title: "Camera Roll", style: .default, handler: { action in
             self.getVideoFromRoll()
         })
+        let playExample = UIAlertAction(title: "Watch Example", style: .default, handler: { action in
+            self.playVideo()
+        })
         
         actionSheet.addAction(camera)
         actionSheet.addAction(cameraRoll)
+        actionSheet.addAction(playExample)
         actionSheet.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         self.present(actionSheet, animated: true, completion: nil)
     }
@@ -250,6 +257,19 @@ class SignViewController: UIViewController {
             self.present(imagePicker, animated: true, completion: nil)
         }
         
+    }
+    
+    private func playVideo() {
+        guard let path = Bundle.main.path(forResource: "example", ofType:"mov") else {
+            debugPrint("example.mov not found")
+            return
+        }
+        let player = AVPlayer(url: URL(fileURLWithPath: path))
+        let playerController = AVPlayerViewController()
+        playerController.player = player
+        present(playerController, animated: true) {
+            player.play()
+        }
     }
     
     @objc func clickedTerms() {
@@ -542,42 +562,35 @@ extension SignViewController: UITextFieldDelegate {
 
 extension SignViewController: UITextViewDelegate {
     
-    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
-        
-        // Combine the textView text and the replacement text to
-        // create the updated text string
-        let currentText:String = textView.text
-        let updatedText = (currentText as NSString).replacingCharacters(in: range, with: text)
-        
-        // If updated text view will be empty, add the placeholder
-        // and set the cursor to the beginning of the text view
-        if updatedText.isEmpty {
-            
-            textView.text = "Placeholder"
-            textView.textColor = UIColor.lightGray
-            
-            textView.selectedTextRange = textView.textRange(from: textView.beginningOfDocument, to: textView.beginningOfDocument)
-        }
-            
-            // Else if the text view's placeholder is showing and the
-            // length of the replacement string is greater than 0, set
-            // the text color to black then set its text to the
-            // replacement string
-        else if textView.textColor == UIColor.lightGray && !text.isEmpty {
-            textView.textColor = UIColor.black
-            textView.text = text
-        }
-            
-            // For every other case, the text should change with the usual
-            // behavior...
-        else {
-            return true
+    func textViewDidChange(_ textView: UITextView) {
+        print("DID CHANGE TEXT")
+        if !didTapBio {
+            bioField.text = ""
+            didTapBio = true
+            print("HERE")
         }
         
-        // ...otherwise return false since the updates have already
-        // been made
-        return false
     }
+    
+//    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+//        
+////        let currentText:String = textView.text
+////        let updatedText = (currentText as NSString).replacingCharacters(in: range, with: text)
+////        if updatedText.isEmpty {
+////
+////            textView.text = "Placeholder"
+////            textView.textColor = UIColor.lightGray
+////
+////            textView.selectedTextRange = textView.textRange(from: textView.beginningOfDocument, to: textView.beginningOfDocument)
+////        } else if textView.textColor == UIColor.lightGray && !text.isEmpty {
+////            textView.textColor = UIColor.black
+////            textView.text = text
+////        } else {
+////            return true
+////        }
+//        
+//        return false
+//    }
     
     func textViewDidChangeSelection(_ textView: UITextView) {
         if self.view.window != nil {

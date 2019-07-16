@@ -132,7 +132,7 @@ class SessionViewController: UIViewController {
             SVProgressHUD.dismiss()
         }
         
-        if let length = appointment.length {
+        if let length = appointment.length, length > 0 {
             lengthLabel.text = "\(String(length)) minutes"
         }
         

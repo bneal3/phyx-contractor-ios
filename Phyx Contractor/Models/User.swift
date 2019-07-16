@@ -18,7 +18,7 @@ import RealmSwift
     dynamic var birthday: Int64 = 0
     dynamic var avatar: String? = nil
     
-    dynamic var rating: Float? = nil
+    var rating: Float? = nil
     
     var isSelected = false
     

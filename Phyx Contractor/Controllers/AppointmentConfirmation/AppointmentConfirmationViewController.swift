@@ -31,6 +31,7 @@ class AppointmentConfirmationViewController: UIViewController {
     @IBOutlet weak var costLabel: UILabel!
     
     var appointment: Appointment!
+    var amount: Int!
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -129,13 +130,28 @@ class AppointmentConfirmationViewController: UIViewController {
             SVProgressHUD.dismiss()
         }
         
-        if let length = appointment.length {
+        if let length = appointment.length, length > 0 {
             lengthLabel.text = "\(String(length)) minutes"
         }
 
         if let notes = appointment.notes {
             notesTextView.text = notes
         }
+        
+        if appointment.service > 1, appointment.service < 8 {
+            var massage = MASSAGES.first(where: { $0["serviceId"] as! Int == appointment.service })
+            amount = massage!["price"] as! Int
+        } else {
+            var service = SERVICES.first(where: {
+                if let serviceId = $0["serviceId"] as? Int {
+                    return appointment.service == serviceId
+                }
+                return false
+            })
+            amount = service!["price"] as! Int
+        }
+        
+        costLabel.text = "$\(amount / 100).00"
     }
     
     @objc func tappedOut() {
